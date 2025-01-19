@@ -17,9 +17,7 @@ Here are some ideas to get you started:
 
 # 👋 Hi there! I'm Raghav Gupta
 
-##
-
-**2nd Year IT Student | Web Developer | AI/ML Enthusiast | Cybersecurity Aficionado**
+## 2nd Year IT Student | Web Developer | AI/ML Enthusiast | Cybersecurity Aficionado
 
 ---
 
@@ -54,7 +52,7 @@ Here are some ideas to get you started:
 
 ### 🌟 Projects and Contributions
 
-- **[GitHub Projects](https://github.com/Raghav-56?tab=repositories)**:  
+- **[GitHub Projects](https://github.com/Raghav-56?tab=repositories)**  
 <!-- - My GitHub is home to various **web development projects**, **AI models**, and other **open-source contributions**.
 - **Current Focus**: Working on **enhancing cybersecurity skills** and **contributing to open-source** in fields like **web development** and **AI/ML**. -->
 
@@ -68,9 +66,9 @@ Here are some ideas to get you started:
 
 ### 📫 Connect with Me
 
-- **LinkedIn**: [linkedin.com/in/raghav-gupta-035b4a292](https://www.linkedin.com/in/raghav-gupta-035b4a292)
-- **GitHub**: [github.com/Raghav-56](https://github.com/Raghav-56)
+- **LinkedIn**: [raghav-gupta-035b4a292](https://www.linkedin.com/in/raghav-gupta-035b4a292)
+- **GitHub**: [Raghav-56](https://github.com/Raghav-56)
+- **X/Twitter**: [Raghav_rgup](https://x.com/Raghav_rgup)
+- **Discord**: [Infra56](https://discordapp.com/users/Infra56)
 
 ---
-
-<!-- *Maintaining professionalism and privacy while focusing on tech interests and contributions* -->
