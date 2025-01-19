@@ -19,14 +19,19 @@ Here are some ideas to get you started:
 
 ## 2nd Year IT Student | Web Developer | AI/ML Enthusiast | Cybersecurity Aficionado
 
----
-
-### 🚀 About Me
-
 - 💻 Currently pursuing a **B.E. in Information Technology** from **UIET, Punjab University, Chandigarh**
 <!-- - 🎓 **Reliance Foundation Scholar** -->
 - 🌐 Passionate about **Web Development, AI/ML, Cybersecurity, and Quantum Computing**
 - 🧩 Always exploring ways to automate tasks and solve problems through innovative tech solutions
+
+---
+
+### 🚀 About Me
+
+I describe myself as Dedicated and Hardworking person, an Optimist who is always eager to learn new things and adapt to new challenges. Continuously seekig opportunities for personal and professional development.
+
+My current focus is on AI and ML, and I am actively expanding my skills in these areas.
+I am eager to apply my knowledge and skills in practical, real-world scenarios.
 
 ---
 
