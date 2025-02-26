@@ -3,3 +3,34 @@ Code Citations.md
 
 # Ignore Improved README file
 improved-readme.md
+
+# Node.js related (for workflows that might use Node)
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+*.log
+logs/
+.cache/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary workflow files
+.github/workflow-temp/

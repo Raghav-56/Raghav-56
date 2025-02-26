@@ -1,12 +1,12 @@
 # Raghav-56
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" style="max-width:100%;">
+  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" class="responsive-img">
   <h1>Hi there! I'm Raghav Gupta</h1>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&width=435&lines=2nd+Year+IT+Student;Web+Developer;AI%2FML+Engineer;Problem+Solver;Tech+Enthusiast" alt="Typing SVG" style="max-width:100%;" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&width=435&lines=2nd+Year+IT+Student;Web+Developer;AI%2FML+Engineer;Problem+Solver;Tech+Enthusiast" alt="Typing SVG" class="responsive-img" />
 </div>
 
 ## 💫 About Me
@@ -15,7 +15,7 @@
 - 🌱 Currently learning advanced **ML algorithms** and **Full Stack Development**
 - 🌐 Passionate about **Web Development, AI/ML, Cybersecurity, and Quantum Computing**
 - 🧩 I love automating tasks and solving problems through code
-- 🔭 Working on [Project Name](https://github.com/Raghav-56/project-link) - *short project description*
+- 🔭 Working on building a solid foundation in **Artificial Intelligence** and **Web Development**
 
 <details>
   <summary>🧠 More about me</summary>
@@ -23,9 +23,15 @@
   
 - 📚 Dedicated and hardworking optimist, eager to learn and adapt to new challenges
 - 🔍 Current focus: Expanding my skills in AI and Machine Learning for real-world applications
-- ⚡ Fun fact: *Add an interesting fun fact about yourself*
+- ⚡ Fun fact: I can solve a Rubik's cube in under 2 minutes!
 
 </details>
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Raghav-56&theme=darkhub&no-frame=true&no-bg=false&margin-w=4&column=-1" alt="GitHub Trophies">
+</div>
 
 ## 🛠️ Tech Stack
 
@@ -47,35 +53,45 @@
   <img src="https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white" alt="Haskell" />
 </div>
 
+<!-- GITHUB_STATS_SECTION:START -->
 ## 📊 GitHub Stats
 
-<div align="center" class="stats-container" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
-  <a href="https://github.com/Raghav-56">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Raghav-56&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Raghav's GitHub Stats" style="max-width:100%;"/>
-  </a>
-  <a href="https://github.com/Raghav-56">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav-56&layout=compact&langs_count=7&theme=github_dark" alt="Raghav's Top Languages" style="max-width:100%;"/>
-  </a>
+<div align="center" class="stats-container">
+  <img src="https://streak-stats.demolab.com/?user=Raghav-56&theme=github-dark-blue" alt="Raghav's GitHub streak" class="responsive-img"/>
 </div>
+<!-- GITHUB_STATS_SECTION:END -->
+
+## 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Raghav-56&theme=github-dark-blue" alt="Raghav's GitHub streak" style="max-width:100%;"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghav-56&theme=github-dark" alt="Contribution Graph" class="responsive-img" />
 </div>
 
-## 🌟 Featured Projects
-<!-- 
-Project section content
--->
+<!-- PROJECT_CARDS_SECTION:START -->
+## 💻 Featured Projects
 
 <div align="center">
   <a href="https://github.com/Raghav-56?tab=repositories">
-    <img src="https://img.shields.io/badge/View_All_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="View All Projects" />
+    <img src="https://img.shields.io/badge/View_All_Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View All Projects" />
   </a>
 </div>
+<!-- PROJECT_CARDS_SECTION:END -->
+
+<!-- SPOTIFY_SECTION:START -->
+## 🎵 Currently Playing
+<!-- SPOTIFY_SECTION:END -->
+
+<!-- BLOG_POST_SECTION:START -->
+## 📝 Latest Blog Posts
+<!-- BLOG_POST_SECTION:END -->
+
+<!-- GITHUB_ACTIVITY_SECTION:START -->
+## 🔥 Recent GitHub Activity
+<!-- GITHUB_ACTIVITY_SECTION:END -->
 
 ## 📫 Connect With Me
 
-<div align="center" style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
+<div align="center" class="social-links">
   <a href="https://www.linkedin.com/in/raghav-gupta-035b4a292" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -90,18 +106,17 @@ Project section content
   </a>
 </div>
 
-<!--START_SECTION:activity-->
-<!-- This section will be automatically updated with your recent GitHub activity -->
-<!--END_SECTION:activity-->
-
 ---
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Raghav-56&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
 
-<!-- Add responsive styles -->
 <style>
+  .responsive-img {
+    max-width: 100%;
+  }
+  
   @media (max-width: 768px) {
     .stats-container {
       flex-direction: column;
@@ -110,4 +125,15 @@ Project section content
       width: 100%;
     }
   }
+  
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
 </style>
+
+<!-- QUOTE_SECTION:START -->
+## 💭 Programming Quote of the Day
+<!-- QUOTE_SECTION:END -->
