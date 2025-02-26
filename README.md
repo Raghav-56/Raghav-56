@@ -29,7 +29,7 @@
 
 ## 🛠️ Tech Stack
 
-<div align="center" style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
+<div align="center">
   <!-- Languages -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
@@ -49,17 +49,17 @@
 
 ## 📊 GitHub Stats
 
-<div align="center" class="stats-container" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
+<div align="center">
   <a href="https://github.com/Raghav-56">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Raghav-56&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Raghav's GitHub Stats" style="max-width:100%;"/>
+    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Raghav-56&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Raghav's GitHub Stats" />
   </a>
   <a href="https://github.com/Raghav-56">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav-56&layout=compact&langs_count=7&theme=github_dark" alt="Raghav's Top Languages" style="max-width:100%;"/>
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav-56&layout=compact&langs_count=7&theme=github_dark" alt="Raghav's Top Languages" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Raghav-56&theme=github-dark-blue" alt="Raghav's GitHub streak" style="max-width:100%;"/>
+  <img width="70%" src="https://streak-stats.demolab.com/?user=Raghav-56&theme=github-dark-blue" alt="Raghav's GitHub streak" />
 </div>
 
 ## 🌟 Featured Projects
@@ -75,7 +75,7 @@ Project section content
 
 ## 📫 Connect With Me
 
-<div align="center" style="display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
+<div align="center">
   <a href="https://www.linkedin.com/in/raghav-gupta-035b4a292" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -99,15 +99,3 @@ Project section content
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Raghav-56&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
-
-<!-- Add responsive styles -->
-<style>
-  @media (max-width: 768px) {
-    .stats-container {
-      flex-direction: column;
-    }
-    .stats-container img {
-      width: 100%;
-    }
-  }
-</style>
