@@ -1,0 +1,36 @@
+name: Section Update Workflow
+
+on:
+  workflow_call:
+    inputs:
+      section-name:
+        required: true
+        type: string
+      commit-message:
+        required: true
+        type: string
+      section-content:
+        required: true
+        type: string
+      readme-path:
+        required: false
+        type: string
+        default: "README.md"
+
+jobs:
+  update-section:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Replace section in README
+        uses: ./.github/actions/section-replacer
+        with:
+          section-name: ${{ inputs.section-name }}
+          section-content: ${{ inputs.section-content }}
+          readme-path: ${{ inputs.readme-path }}
+
+      - uses: ./.github/actions/commit-changes
+        with:
+          commit-message: ${{ inputs.commit-message }}
+          file-path: ${{ inputs.readme-path }}

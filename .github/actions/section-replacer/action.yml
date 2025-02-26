@@ -1,0 +1,26 @@
+name: "README Section Replacer"
+description: "Replaces entire sections in README.md"
+
+inputs:
+  section-name:
+    description: "Name of the section to replace"
+    required: true
+  section-content:
+    description: "Content to replace the section with"
+    required: true
+  readme-path:
+    description: "Path to the README file"
+    required: false
+    default: "README.md"
+  commit:
+    description: "Whether to commit changes"
+    required: false
+    default: "false"
+  commit-message:
+    description: "Commit message"
+    required: false
+    default: "Update README section"
+
+runs:
+  using: "node16"
+  main: "index.js"

@@ -1,0 +1,43 @@
+name: Spotify Now Playing
+
+on:
+  schedule:
+    - cron: "15 */1 * * *" # Runs at 15 minutes past each hour
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-spotify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check required secrets
+        id: check_secrets
+        run: |
+          if [[ -n "${{ secrets.SPOTIFY_CLIENT_ID }}" && -n "${{ secrets.SPOTIFY_CLIENT_SECRET }}" && -n "${{ secrets.SPOTIFY_REFRESH_TOKEN }}" ]]; then
+            echo "::set-output name=has_secrets::true"
+          else
+            echo "::set-output name=has_secrets::false"
+          fi
+
+      - name: Update with Spotify
+        if: steps.check_secrets.outputs.has_secrets == 'true'
+        id: spotify
+        uses: kittinan/spotify-github-profile@master
+        with:
+          spotify_client_id: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          spotify_client_secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          spotify_refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          option: "np" # now-playing or recently-played
+
+      - name: Replace Spotify section in README
+        if: steps.check_secrets.outputs.has_secrets == 'true'
+        uses: ./.github/actions/section-replacer
+        with:
+          section-name: "spotify"
+          section-content: "${{ steps.spotify.outputs.spotify }}"
+
+      - uses: ./.github/actions/commit-changes
+        if: steps.check_secrets.outputs.has_secrets == 'true'
+        with:
+          commit-message: "Updated Spotify now playing"

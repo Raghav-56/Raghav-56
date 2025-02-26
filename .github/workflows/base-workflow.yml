@@ -1,0 +1,22 @@
+name: Base Workflow
+
+on:
+  workflow_call:
+    inputs:
+      commit-message:
+        required: true
+        type: string
+    secrets:
+      GITHUB_TOKEN:
+        required: true
+
+jobs:
+  base-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # Child workflows will insert their steps here
+      - name: Commit changes
+        uses: ./.github/actions/commit-changes
+        with:
+          commit-message: ${{ inputs.commit-message }}

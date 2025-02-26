@@ -1,0 +1,36 @@
+name: Debug Workflow
+
+on:
+  workflow_dispatch: # Manual trigger only
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run debug helper
+        uses: ./.github/actions/debug-helper
+
+      - name: Check GitHub token permissions
+        run: |
+          echo "GitHub token permissions:"
+          curl -s -H "Authorization: token ${{ github.token }}" \
+            https://api.github.com/rate_limit | jq '.resources'
+
+      - name: Test section replacer
+        uses: ./.github/actions/section-replacer
+        with:
+          section-name: "stats"
+          section-content: |
+            ## 📊 GitHub Stats (Debug Test)
+
+            <div align="center">
+              <p>This content was added by the debug workflow to test section replacement.</p>
+            </div>
+
+      - name: Commit test changes
+        uses: ./.github/actions/commit-changes
+        with:
+          commit-message: "Debug workflow test commit"

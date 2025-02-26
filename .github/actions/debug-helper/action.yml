@@ -1,0 +1,42 @@
+name: "Debug Helper"
+description: "Helps diagnose issues with GitHub Actions workflows"
+
+inputs:
+  readme-path:
+    description: "Path to the README file"
+    required: false
+    default: "README.md"
+
+runs:
+  using: "composite"
+  steps:
+    - name: List Repository Files
+      shell: bash
+      run: |
+        echo "Listing repository files:"
+        ls -la
+
+    - name: Check README file
+      shell: bash
+      run: |
+        if [ -f "${{ inputs.readme-path }}" ]; then
+          echo "README file exists at ${{ inputs.readme-path }}"
+          
+          echo "Checking for section markers in README..."
+          grep -n "SECTION:START" "${{ inputs.readme-path }}"
+          grep -n "SECTION:END" "${{ inputs.readme-path }}"
+          grep -n "BEGIN_SECTION" "${{ inputs.readme-path }}"
+          grep -n "END_SECTION" "${{ inputs.readme-path }}"
+        else
+          echo "ERROR: README file not found at ${{ inputs.readme-path }}"
+        fi
+
+    - name: Check GitHub workflow files
+      shell: bash
+      run: |
+        if [ -d ".github/workflows" ]; then
+          echo "Workflow directory exists, listing files:"
+          ls -la .github/workflows/
+        else
+          echo "ERROR: .github/workflows directory not found"
+        fi

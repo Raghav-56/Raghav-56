@@ -1,0 +1,43 @@
+name: Update Project Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Weekly on Sunday
+  workflow_dispatch:
+
+jobs:
+  generate-projects:
+    runs-on: ubuntu-latest
+    outputs:
+      has_repos: ${{ steps.check_repos.outputs.has_repos }}
+      markdown: ${{ steps.projects.outputs.markdown }}
+    steps:
+      - name: Check for public repositories
+        id: check_repos
+        run: |
+          REPO_COUNT=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/users/Raghav-56/repos?per_page=100" | jq length)
+          echo "::set-output name=has_repos::$([ "$REPO_COUNT" -gt "1" ] && echo 'true' || echo 'false')"
+
+      - name: Generate Project Cards
+        if: steps.check_repos.outputs.has_repos == 'true'
+        id: projects
+        uses: rahul-jha98/github-readme-stats-compact@main
+        with:
+          username: "Raghav-56"
+          show_owner: true
+          theme: "radical"
+          card_width: 450
+          number_of_cards: 6
+          output_format: "markdown"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  update-section:
+    needs: generate-projects
+    if: needs.generate-projects.outputs.has_repos == 'true'
+    uses: ./.github/workflows/common-workflow.yml
+    with:
+      section-name: "projects"
+      section-content: "${{ needs.generate-projects.outputs.markdown }}"
+      commit-message: "Updated project cards"

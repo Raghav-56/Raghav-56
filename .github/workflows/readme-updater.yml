@@ -1,0 +1,45 @@
+name: README Updater
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Daily at midnight
+  workflow_dispatch:
+    inputs:
+      update-quote:
+        description: "Update quote section"
+        required: false
+        default: true
+        type: boolean
+      update-projects:
+        description: "Update projects section"
+        required: false
+        default: true
+        type: boolean
+      update-stats:
+        description: "Update GitHub stats section"
+        required: false
+        default: true
+        type: boolean
+      update-blog:
+        description: "Update blog posts section"
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  # Trigger individual workflows based on inputs
+  trigger-quote-workflow:
+    if: ${{ github.event.inputs.update-quote != 'false' }}
+    uses: ./.github/workflows/quote-workflow.yml
+
+  trigger-projects-workflow:
+    if: ${{ github.event.inputs.update-projects != 'false' }}
+    uses: ./.github/workflows/project-cards.yml
+
+  trigger-stats-workflow:
+    if: ${{ github.event.inputs.update-stats != 'false' }}
+    uses: ./.github/workflows/github-stats.yml
+
+  trigger-blog-workflow:
+    if: ${{ github.event.inputs.update-blog != 'false' }}
+    uses: ./.github/workflows/blog-post-workflow.yml

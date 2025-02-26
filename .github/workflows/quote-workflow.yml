@@ -1,0 +1,27 @@
+name: Daily Quote
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # 12:30am daily
+  workflow_dispatch:
+
+jobs:
+  generate-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Generate daily quote
+        id: quote
+        uses: shravan20/github-readme-quotes@main
+        with:
+          QUOTE_CATEGORY: "programming" # Options: programming, motivational
+          MARKDOWN: "true"
+
+  update-section:
+    needs: generate-quote
+    uses: ./.github/workflows/common-workflow.yml
+    with:
+      section-name: "quote"
+      section-content: "${{ jobs.generate-quote.outputs.quote }}"
+      commit-message: "Updated daily programming quote"
