@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 # 👋 Hi there! I'm Raghav Gupta
 
-## 2nd Year IT Student | Web Developer | AI/ML Engineer 
+## 2nd Year IT Student | Web Developer | AI/ML Engineer
 
 - 💻 Currently pursuing a **B.E. in Information Technology** from **UIET, Punjab University, Chandigarh**
 <!-- - 🎓 **Reliance Foundation Scholar** -->
