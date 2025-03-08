@@ -68,6 +68,12 @@
   <img width="70%" src="https://streak-stats.demolab.com/?user=Raghav-56&theme=github-dark-blue" alt="Raghav's GitHub streak" />
 </div>
 
+## 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghav-56&theme=github-dark" alt="Contribution Graph" class="responsive-img" />
+</div>
+
 ## 🌟 Featured Projects
 <!-- 
 Project section content
