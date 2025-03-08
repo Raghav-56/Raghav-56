@@ -27,7 +27,11 @@
 
 </details>
 
+## 🏆 GitHub Trophies
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Raghav-56&theme=darkhub&no-frame=true&no-bg=false&margin-w=4&column=-1" alt="GitHub Trophies">
+</div>
 
 ## 🛠️ Tech Stack
 
