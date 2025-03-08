@@ -15,7 +15,7 @@
 - 🌱 Currently learning advanced **ML algorithms** and **Full Stack Development**
 - 🌐 Passionate about **Web Development, AI/ML, Cybersecurity, and Quantum Computing**
 - 🧩 I love automating tasks and solving problems through code
-- 🔭 Working on [Project Name](https://github.com/Raghav-56/project-link) - *short project description*
+- 🔭 Working on building a solid foundation in **Artificial Intelligence** and **Web Development**
 
 <details>
   <summary>🧠 More about me</summary>
@@ -26,12 +26,6 @@
 - ⚡ Fun fact: *Add an interesting fun fact about yourself*
 
 </details>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Raghav-56&theme=darkhub&no-frame=true&no-bg=false&margin-w=4&column=-1" alt="GitHub Trophies">
-</div>
 
 ## 🛠️ Tech Stack
 
@@ -55,24 +49,34 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <a href="https://github.com/Raghav-56">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Raghav-56&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Raghav's GitHub Stats" />
-  </a>
-  <a href="https://github.com/Raghav-56">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav-56&layout=compact&langs_count=7&theme=github_dark" alt="Raghav's Top Languages" />
-  </a>
-</div>
+<details>
+  <summary><b>📈 Stats and Contributions</b></summary>
+  <br>
+  <div align="center">
+    <a href="https://github.com/Raghav-56">
+      <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Raghav-56&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Raghav's GitHub Stats" />
+    </a>
+    <a href="https://github.com/Raghav-56">
+      <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav-56&layout=compact&langs_count=7&theme=github_dark" alt="Raghav's Top Languages" />
+    </a>
+  </div>
+  
+  <div align="center">
+    <img width="70%" src="https://streak-stats.demolab.com/?user=Raghav-56&theme=github-dark-blue" alt="Raghav's GitHub streak" />
+  </div>
 
-<div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com/?user=Raghav-56&theme=github-dark-blue" alt="Raghav's GitHub streak" />
-</div>
+  <div align="center">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Raghav-56&theme=github_dark" width="100%" alt="Contribution Graph" />
+  </div>
+</details>
 
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raghav-56&theme=github-dark" alt="Contribution Graph" class="responsive-img" />
-</div>
+<details>
+  <summary><b>🏆 GitHub Trophies</b></summary>
+  <br>
+  <div align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=Raghav-56&theme=darkhub&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" alt="GitHub Trophies" width="100%" />
+  </div>
+</details>
 
 ## 🌟 Featured Projects
 <!-- 
