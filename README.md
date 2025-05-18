@@ -17,6 +17,8 @@
 - 🧩 I love automating tasks and solving problems through code
 - 🔭 Working on building a solid foundation in **Artificial Intelligence** and **Web Development**
 
+You can view my resume [here](https://raghav-56.github.io/Resume/).
+
 <details>
   <summary>🧠 More about me</summary>
   <br>
