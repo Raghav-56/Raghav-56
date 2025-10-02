@@ -56,10 +56,10 @@ You can view my resume [here](https://raghav-56.github.io/Resume/).
   <br>
   <div align="center">
     <a href="https://github.com/Raghav-56">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Raghav-56&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Raghav's GitHub Stats" />
+      <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Raghav-56&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="My(Raghav's) GitHub Stats" />
     </a>
     <a href="https://github.com/Raghav-56">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav-56&layout=compact&langs_count=7&theme=github_dark" alt="Raghav's Top Languages" />
+      <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav-56&layout=compact&langs_count=10&theme=github_dark" alt="Top Languages of the public repos owned be my(Raghav's) account" />
     </a>
   </div>
   
