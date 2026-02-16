@@ -1,0 +1,70 @@
+name: Update Quote Section
+
+on:
+  schedule:
+    - cron: "10 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: profile-readme-automation
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch quote from GitHub Zen
+        id: quote
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          quote=$(curl -fsSL -H "Authorization: Bearer ${GITHUB_TOKEN}" https://api.github.com/zen)
+          {
+            echo "content<<EOF"
+            echo "## 💭 Quote of the Day"
+            echo
+            echo "> \"${quote}\""
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Replace quote section
+        env:
+          SECTION_CONTENT: ${{ steps.quote.outputs.content }}
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path("README.md")
+          start = "<!-- QUOTE_SECTION:START -->"
+          end = "<!-- QUOTE_SECTION:END -->"
+          section_content = __import__("os").environ["SECTION_CONTENT"].strip()
+
+          content = path.read_text(encoding="utf-8")
+          start_idx = content.find(start)
+          end_idx = content.find(end)
+          if start_idx == -1 or end_idx == -1:
+              raise SystemExit("Quote section markers not found")
+
+          end_idx += len(end)
+          replacement = f"{start}\n{section_content}\n{end}"
+          updated = content[:start_idx] + replacement + content[end_idx:]
+          path.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No quote updates to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh quote section"
+          git push
