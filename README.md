@@ -101,9 +101,9 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
-## 💭 Thoughts
+## 💭 Quote of the Day
 
-> "Dubito, ergo cogito, ergo sum - res cogitans"
+> "Practicality beats purity."
 <!-- QUOTE_SECTION:END -->
 
 ## 📫 Connect With Me
