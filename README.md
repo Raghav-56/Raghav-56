@@ -127,7 +127,7 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 </div>
 
 <!--START_SECTION:activity-->
-<!-- This section will be automatically updated with your recent GitHub activity -->
+1. 🎉 Merged PR [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 <!--END_SECTION:activity-->
 
 ---
