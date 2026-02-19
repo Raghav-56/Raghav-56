@@ -103,7 +103,7 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- QUOTE_SECTION:START -->
 ## 💭 Quote of the Day
 
-> "Responsive is better than fast."
+> "Mind your words, they are important."
 <!-- QUOTE_SECTION:END -->
 
 ## 📫 Connect With Me
