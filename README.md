@@ -103,7 +103,7 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- QUOTE_SECTION:START -->
 ## 💭 Quote of the Day
 
-> "Mind your words, they are important."
+> "Half measures are as bad as nothing at all."
 <!-- QUOTE_SECTION:END -->
 
 ## 📫 Connect With Me
