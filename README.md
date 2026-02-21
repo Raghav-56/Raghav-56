@@ -127,6 +127,11 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 </div>
 
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
+2. 🗣 Commented on [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704#issuecomment-3848467957) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
+3. 🗣 Commented on [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704#issuecomment-3845902375) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
+4. 💪 Opened PR [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
+5. 🗣 Commented on [#1691](https://github.com/hiero-ledger/hiero-sdk-python/issues/1691#issuecomment-3845203553) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 <!--END_SECTION:activity-->
 
 ---
