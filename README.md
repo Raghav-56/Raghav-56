@@ -95,9 +95,12 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- TROPHIES_SECTION:END -->
 
 <!-- PROJECTS_SECTION:START -->
-<!-- ## 🌟 Featured Projects -->
+## 🌟 Featured Projects
 
-<!-- - To be added soon! -->
+- [asr](https://github.com/Raghav-56/asr) — basic asr server
+- [Inference_server](https://github.com/Raghav-56/Inference_server) — server for Inference script
+- [testing1213](https://github.com/Raghav-56/testing1213) — Active repository by Raghav Gupta
+- [Resume](https://github.com/Raghav-56/Resume) — Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
