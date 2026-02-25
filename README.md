@@ -106,7 +106,7 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- QUOTE_SECTION:START -->
 ## 💭 Quote of the Day
 
-> "It's not fully shipped until it's fast."
+> "Accessible for all."
 <!-- QUOTE_SECTION:END -->
 
 ## 📫 Connect With Me
