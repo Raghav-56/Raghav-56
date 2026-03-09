@@ -98,9 +98,9 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 ## 🌟 Featured Projects
 
 - [asr](https://github.com/Raghav-56/asr) — basic asr server
+- [vcard_convert](https://github.com/Raghav-56/vcard_convert) — convert from .csv to .vcf
 - [Inference_server](https://github.com/Raghav-56/Inference_server) — server for Inference script
 - [testing1213](https://github.com/Raghav-56/testing1213) — Active repository by Raghav Gupta
-- [Resume](https://github.com/Raghav-56/Resume) — Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
