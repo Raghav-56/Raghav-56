@@ -130,7 +130,7 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 </div>
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
+1. 🗣 Commented on [#299523](https://github.com/microsoft/vscode/issues/299523#issuecomment-4018359963) in [microsoft/vscode](https://github.com/microsoft/vscode)
 2. 🗣 Commented on [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704#issuecomment-3848467957) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 3. 🗣 Commented on [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704#issuecomment-3845902375) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 4. 💪 Opened PR [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
