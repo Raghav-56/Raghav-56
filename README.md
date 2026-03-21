@@ -106,7 +106,7 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- QUOTE_SECTION:START -->
 ## 💭 Quote of the Day
 
-> "Half measures are as bad as nothing at all."
+> "Anything added dilutes everything else."
 <!-- QUOTE_SECTION:END -->
 
 ## 📫 Connect With Me
