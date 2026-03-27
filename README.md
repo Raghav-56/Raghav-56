@@ -106,7 +106,7 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- QUOTE_SECTION:START -->
 ## 💭 Quote of the Day
 
-> "Speak like a human."
+> "Keep it logically awesome."
 <!-- QUOTE_SECTION:END -->
 
 ## 📫 Connect With Me
