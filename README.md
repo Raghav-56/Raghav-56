@@ -130,11 +130,11 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 </div>
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#70](https://github.com/openMF/community-ai/pull/70) in [openMF/community-ai](https://github.com/openMF/community-ai)
-2. 🗣 Commented on [#299523](https://github.com/microsoft/vscode/issues/299523#issuecomment-4018359963) in [microsoft/vscode](https://github.com/microsoft/vscode)
-3. 🗣 Commented on [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704#issuecomment-3845902375) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
-4. 💪 Opened PR [#1704](https://github.com/hiero-ledger/hiero-sdk-python/pull/1704) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
-5. 🗣 Commented on [#1691](https://github.com/hiero-ledger/hiero-sdk-python/issues/1691#issuecomment-3845203553) in [hiero-ledger/hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
+1. 🗣 Commented on [#899](https://github.com/llm4s/llm4s/issues/899#issuecomment-4189051568) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
+2. ℹ️ Labeled issue [#899](https://github.com/llm4s/llm4s/issues/899) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
+3. ❗ Opened issue [#899](https://github.com/llm4s/llm4s/issues/899) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
+4. 🎉 Merged PR [#70](https://github.com/openMF/community-ai/pull/70) in [openMF/community-ai](https://github.com/openMF/community-ai)
+5. 🗣 Commented on [#299523](https://github.com/microsoft/vscode/issues/299523#issuecomment-4018359963) in [microsoft/vscode](https://github.com/microsoft/vscode)
 <!--END_SECTION:activity-->
 
 ---
