@@ -97,10 +97,10 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- PROJECTS_SECTION:START -->
 ## 🌟 Featured Projects
 
-- [Scheme_Programming](https://github.com/Raghav-56/Scheme_Programming) — Active repository by Raghav Gupta
+- [DAA_Project](https://github.com/Raghav-56/DAA_Project) — Active repository by Raghav Gupta
 - [ICR_code](https://github.com/Raghav-56/ICR_code) — Active repository by Raghav Gupta
+- [Scheme_Programming](https://github.com/Raghav-56/Scheme_Programming) — Active repository by Raghav Gupta
 - [asr](https://github.com/Raghav-56/asr) — basic asr server
-- [vcard_convert](https://github.com/Raghav-56/vcard_convert) — convert from .csv to .vcf
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
