@@ -107,15 +107,18 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- TROPHIES_SECTION:END -->
 
 <!-- PROJECTS_SECTION:START -->
-<!-- ## 🌟 Featured Projects -->
+## 🌟 Featured Projects
 
-<!-- - To be added soon! -->
+- [RLM-agent](https://github.com/Raghav-56/RLM-agent) — Active repository by Raghav Gupta
+- [Inference_server](https://github.com/Raghav-56/Inference_server) — server for Inference script
+- [ICR_code](https://github.com/Raghav-56/ICR_code) — Active repository by Raghav Gupta
+- [DAA_p](https://github.com/Raghav-56/DAA_p) — Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Dubito, ergo cogito, ergo sum - res cogitans"
+> "It's not fully shipped until it's fast."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
@@ -139,7 +142,11 @@ Having worked on AI projects, I naturally got interested in managing compute and
 </div>
 
 <!--START_SECTION:activity-->
-<!-- This section will be automatically updated with your recent GitHub activity -->
+1. 🎉 Merged PR [#905](https://github.com/llm4s/llm4s/pull/905) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
+2. 💪 Opened PR [#905](https://github.com/llm4s/llm4s/pull/905) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
+3. 🗣 Commented on [#899](https://github.com/llm4s/llm4s/issues/899#issuecomment-4189051568) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
+4. ℹ️ Labeled issue [#899](https://github.com/llm4s/llm4s/issues/899) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
+5. ❗ Opened issue [#899](https://github.com/llm4s/llm4s/issues/899) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
 <!--END_SECTION:activity-->
 
 ---
