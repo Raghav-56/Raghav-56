@@ -66,6 +66,19 @@ Having worked on AI projects, I naturally got interested in managing compute and
 **Environment**: Linux · SSH · UV · tmux · zsh · Neovim
 
 </details>
+<br>
+<div align="left">
+  <strong>Published Packages:</strong><br>
+  <a href="https://pypi.org/user/Raghav-56/" target="_blank">
+    <img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" />
+  </a>
+  &nbsp;
+  <a href="https://www.npmjs.com/~raghav-56" target="_blank">
+    <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  </a>
+</div>
+
+<!-- [PyPI](https://pypi.org/user/Raghav-56/) · [Npm](https://www.npmjs.com/~raghav-56) -->
 
 <!-- STATS_SECTION:START -->
 ## GitHub Stats
@@ -109,10 +122,10 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- PROJECTS_SECTION:START -->
 ## 🌟 Featured Projects
 
-- [RLM-agent](https://github.com/Raghav-56/RLM-agent) — Active repository by Raghav Gupta
-- [Inference_server](https://github.com/Raghav-56/Inference_server) — server for Inference script
-- [ICR_code](https://github.com/Raghav-56/ICR_code) — Active repository by Raghav Gupta
-- [DAA_p](https://github.com/Raghav-56/DAA_p) — Active repository by Raghav Gupta
+- [RLM-agent](https://github.com/Raghav-56/RLM-agent): Active repository by Raghav Gupta
+- [Inference_server](https://github.com/Raghav-56/Inference_server): server for Inference script
+- [ICR_code](https://github.com/Raghav-56/ICR_code): Active repository by Raghav Gupta
+- [DAA_p](https://github.com/Raghav-56/DAA_p): Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->

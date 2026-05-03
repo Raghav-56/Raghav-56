@@ -27,7 +27,7 @@ jobs:
           quote=$(curl -fsSL -H "Authorization: Bearer ${GITHUB_TOKEN}" https://api.github.com/zen)
           {
             echo "content<<EOF"
-            echo "## 💭 Quote of the Day"
+            echo "## Thoughts"
             echo
             echo "> \"${quote}\""
             echo "EOF"

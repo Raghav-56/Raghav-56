@@ -31,7 +31,7 @@ jobs:
             | reverse
             | .[:4]
             | .[]
-            | "- [\(.name)](\(.html_url)) — \((.description // "Active repository by Raghav Gupta") | gsub("\\r|\\n"; " "))"
+            | "- [\(.name)](\(.html_url)): \((.description // "Active repository by Raghav Gupta") | gsub("\\r|\\n"; " "))"
           ' > projects-list.md
 
           {
