@@ -6,61 +6,73 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&width=435&lines=2nd+Year+IT+Student;Web+Developer;AI%2FML+Engineer;Problem+Solver;Tech+Enthusiast" alt="Typing SVG" style="max-width:100%;" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&width=435&lines=AI%2FML+Engineer;Web+Developer;DevOps+Engineer;Problem+Solver;Tech+Enthusiast" alt="Typing SVG" style="max-width:100%;" />
 </div>
 
 <div align="center">
   <a href="https://raghav-56.github.io/Resume/">
-    <img src="https://img.shields.io/badge/View_Resume-0A66C2?style=for-the-badge&logo=readme&logoColor=white" alt="View Resume" />
+    <img src="https://img.shields.io/badge/Resume-0A66C2?style=for-the-badge&logo=readme&logoColor=white" alt="Resume" />
   </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/Raghav-56?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore Projects" />
+    <img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Projects" >
   </a>
 </div>
 
-## 💫 About Me
+## About Me
 
-- 💻 B.E. in Information Technology @ **UIET, Punjab University, Chandigarh**
-- 🌐 Interested in **Alignment via Interpretability** and **DevOps for Inference**
-- 🧩 Building projects across **Web**, **AI/ML**, and **systems programming**
-- 🤝 Open to collaborating on **AI tooling**, **developer productivity**, and **ML inference workflows**
+- Interested in **Alignment via Interpretability** and **DevOps for Inference**
+- Building projects across **Web**, **AI/ML**, and **Systems programming**
+- Open to **collaborating** on interesting and impactful projects.
+- I love **Programming**!
+- I love **science and maths**! Learning in general is something I enjoy a lot.
 
 You can view my [resume](https://raghav-56.github.io/Resume/).
 
 <details>
-  <summary>🧠 More about me</summary>
-  <br>
+  <summary>You Interested?</summary>
 
-- I love Programming!
-- I love science and maths! Learning in general is something I enjoy a lot.
+### Alignment via Interpretability
+
+I am fascinated by the idea of using interpretability techniques to understand and align large language models. I really believe that this will be a crucial area of research in the coming years, and I am excited to contribute to it in any way I can.
+
+### DevOps for Inference
+
+I have always been interested in the servers, git, bash, ssh, command line, remote machines, their usage and access.  
+Having worked on AI projects, I naturally got interested in managing compute and infrastructure for AI workloads.
 
 </details>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
-
-  <!-- Languages -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white" alt="Haskell" />
-
-  <!-- Frontend -->
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-
-  <!-- Other Skills -->
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </div>
 
+<details>
+<summary><b>Full Stack</b></summary>
+<br>
+
+**Languages**: Python · C++ · Rust · Haskell · TypeScript · Bash · SQL · LaTeX · Scala
+
+**ML / AI**: PyTorch · TensorFlow · HuggingFace · OpenCV · NeMo · LLaMA Factory · Whisper · Scikit-learn · WASM
+
+**DevOps & Infra**: Docker · Git · GitHub Actions · GCP · Oracle Cloud · FastAPI · uvicorn · MLflow · Weights & Biases
+
+**Environment**: Linux · SSH · UV · tmux · zsh · Neovim
+
+</details>
+
 <!-- STATS_SECTION:START -->
-## 📊 GitHub Stats
+## GitHub Stats
 
 <details>
   <summary>
-    <b>📈 Stats and Contributions</b>
+    <b>Stats and Contributions</b>
   </summary>
 
   <br>
@@ -81,10 +93,10 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- STATS_SECTION:END -->
 
 <!-- TROPHIES_SECTION:START -->
-## 🏆 GitHub Trophies
+## GitHub Trophies
 
 <details>
-  <summary><b>🏆 Trophy Board</b></summary>
+  <summary><b>Trophy Board</b></summary>
 
   <br>
 
@@ -101,12 +113,12 @@ You can view my [resume](https://raghav-56.github.io/Resume/).
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
-## 💭 Thoughts
+## Thoughts
 
 > "Dubito, ergo cogito, ergo sum - res cogitans"
 <!-- QUOTE_SECTION:END -->
 
-## 📫 Connect With Me
+## Connect With Me
 
 <div align="center">
   <a href="https://www.linkedin.com/in/raghav-gupta-035b4a292" target="_blank">
