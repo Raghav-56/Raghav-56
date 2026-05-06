@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Speak like a human."
+> "Keep it logically awesome."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
