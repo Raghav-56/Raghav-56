@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Avoid administrative distraction."
+> "Anything added dilutes everything else."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
