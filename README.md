@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Half measures are as bad as nothing at all."
+> "Mind your words, they are important."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
