@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "It's not fully shipped until it's fast."
+> "Practicality beats purity."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
