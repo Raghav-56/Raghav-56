@@ -122,9 +122,9 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- PROJECTS_SECTION:START -->
 ## 🌟 Featured Projects
 
+- [flexoki-mcp-server](https://github.com/Raghav-56/flexoki-mcp-server): Active repository by Raghav Gupta
 - [RLM-agent](https://github.com/Raghav-56/RLM-agent): Active repository by Raghav Gupta
 - [ICR_code](https://github.com/Raghav-56/ICR_code): Active repository by Raghav Gupta
-- [Inference_server](https://github.com/Raghav-56/Inference_server): server for Inference script
 - [DAA_p](https://github.com/Raghav-56/DAA_p): Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
