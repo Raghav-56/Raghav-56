@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Keep it logically awesome."
+> "Half measures are as bad as nothing at all."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
