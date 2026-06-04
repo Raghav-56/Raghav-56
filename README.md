@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Accessible for all."
+> "Design for failure."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
