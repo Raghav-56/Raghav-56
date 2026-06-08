@@ -122,10 +122,10 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- PROJECTS_SECTION:START -->
 ## 🌟 Featured Projects
 
+- [DL_Assignment](https://github.com/Raghav-56/DL_Assignment): Active repository by Raghav Gupta
 - [flexoki-mcp-server](https://github.com/Raghav-56/flexoki-mcp-server): Active repository by Raghav Gupta
+- [git-surgeon](https://github.com/Raghav-56/git-surgeon): Active repository by Raghav Gupta
 - [RLM-agent](https://github.com/Raghav-56/RLM-agent): Active repository by Raghav Gupta
-- [ICR_code](https://github.com/Raghav-56/ICR_code): Active repository by Raghav Gupta
-- [DAA_p](https://github.com/Raghav-56/DAA_p): Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
