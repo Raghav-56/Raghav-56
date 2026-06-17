@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Mind your words, they are important."
+> "Responsive is better than fast."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
