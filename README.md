@@ -155,9 +155,9 @@ Having worked on AI projects, I naturally got interested in managing compute and
 </div>
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#6](https://github.com/bahamas10/bash-course/pull/6) in [bahamas10/bash-course](https://github.com/bahamas10/bash-course)
-2. 💪 Opened PR [#905](https://github.com/llm4s/llm4s/pull/905) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
-3. 🗣 Commented on [#899](https://github.com/llm4s/llm4s/issues/899#issuecomment-4189051568) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
+1. 🗣 Commented on [#6](https://github.com/bahamas10/bash-course/pull/6#issuecomment-4932275540) in [bahamas10/bash-course](https://github.com/bahamas10/bash-course)
+2. ❌ Closed PR [#6](https://github.com/bahamas10/bash-course/pull/6) in [bahamas10/bash-course](https://github.com/bahamas10/bash-course)
+3. 💪 Opened PR [#6](https://github.com/bahamas10/bash-course/pull/6) in [bahamas10/bash-course](https://github.com/bahamas10/bash-course)
 4. ℹ️ Labeled issue [#899](https://github.com/llm4s/llm4s/issues/899) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
 5. ❗ Opened issue [#899](https://github.com/llm4s/llm4s/issues/899) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
 <!--END_SECTION:activity-->
