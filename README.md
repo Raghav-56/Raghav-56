@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Favor focus over features."
+> "Half measures are as bad as nothing at all."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
