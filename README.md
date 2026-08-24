@@ -122,10 +122,10 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- PROJECTS_SECTION:START -->
 ## 🌟 Featured Projects
 
-- [quartz_website](https://github.com/Raghav-56/quartz_website): Active repository by Raghav Gupta
-- [flexoki-mcp-server](https://github.com/Raghav-56/flexoki-mcp-server): Active repository by Raghav Gupta
+- [gate-web](https://github.com/Raghav-56/gate-web): Decoupled web viewer for GATE study syllabi + plans (Astro + Flexoki). Bring your own content.
+- [papertrail](https://github.com/Raghav-56/papertrail): Active repository by Raghav Gupta
 - [Blogs](https://github.com/Raghav-56/Blogs): Active repository by Raghav Gupta
-- [RLM-agent](https://github.com/Raghav-56/RLM-agent): Active repository by Raghav Gupta
+- [quartz_website](https://github.com/Raghav-56/quartz_website): Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
