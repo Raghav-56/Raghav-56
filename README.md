@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Encourage flow."
+> "Non-blocking is better than blocking."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
