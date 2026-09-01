@@ -124,7 +124,6 @@ Having worked on AI projects, I naturally got interested in managing compute and
 
 - [Blogs-quartz](https://github.com/Raghav-56/Blogs-quartz): My blogs ported to quartz for easy and managed publishing
 - [papertrail](https://github.com/Raghav-56/papertrail): Active repository by Raghav Gupta
-- [gate-web](https://github.com/Raghav-56/gate-web): Decoupled web viewer for GATE study syllabi + plans (Astro + Flexoki). Bring your own content.
 - [Blogs](https://github.com/Raghav-56/Blogs): Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
