@@ -130,7 +130,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Practicality beats purity."
+> "Avoid administrative distraction."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
