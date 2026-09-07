@@ -122,9 +122,10 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- PROJECTS_SECTION:START -->
 ## 🌟 Featured Projects
 
+- [quartz_website](https://github.com/Raghav-56/quartz_website): Active repository by Raghav Gupta
+- [open-sora-serving-gcp](https://github.com/Raghav-56/open-sora-serving-gcp): Active repository by Raghav Gupta
+- [DL_Assignment](https://github.com/Raghav-56/DL_Assignment): Active repository by Raghav Gupta
 - [Blogs-quartz](https://github.com/Raghav-56/Blogs-quartz): My blogs ported to quartz for easy and managed publishing
-- [papertrail](https://github.com/Raghav-56/papertrail): Active repository by Raghav Gupta
-- [Blogs](https://github.com/Raghav-56/Blogs): Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
