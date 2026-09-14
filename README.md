@@ -123,9 +123,9 @@ Having worked on AI projects, I naturally got interested in managing compute and
 ## 🌟 Featured Projects
 
 - [quartz_website](https://github.com/Raghav-56/quartz_website): Active repository by Raghav Gupta
+- [Blogs-quartz](https://github.com/Raghav-56/Blogs-quartz): My blogs ported to quartz for easy and managed publishing
 - [open-sora-serving-gcp](https://github.com/Raghav-56/open-sora-serving-gcp): Active repository by Raghav Gupta
 - [DL_Assignment](https://github.com/Raghav-56/DL_Assignment): Active repository by Raghav Gupta
-- [Blogs-quartz](https://github.com/Raghav-56/Blogs-quartz): My blogs ported to quartz for easy and managed publishing
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
