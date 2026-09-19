@@ -131,7 +131,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Half measures are as bad as nothing at all."
+> "Accessible for all."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
