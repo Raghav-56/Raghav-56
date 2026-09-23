@@ -155,10 +155,10 @@ Having worked on AI projects, I naturally got interested in managing compute and
 </div>
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#7](https://github.com/bahamas10/bash-course/issues/7) in [bahamas10/bash-course](https://github.com/bahamas10/bash-course)
-2. 🗣 Commented on [#6](https://github.com/bahamas10/bash-course/pull/6#issuecomment-4932275540) in [bahamas10/bash-course](https://github.com/bahamas10/bash-course)
-3. ❌ Closed PR [#6](https://github.com/bahamas10/bash-course/pull/6) in [bahamas10/bash-course](https://github.com/bahamas10/bash-course)
-4. 💪 Opened PR [#6](https://github.com/bahamas10/bash-course/pull/6) in [bahamas10/bash-course](https://github.com/bahamas10/bash-course)
+1. 🗣 Commented on [#13047](https://github.com/pingdotgg/t3code/issues/13047#issuecomment-5779315257) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+2. 🗣 Commented on [#13047](https://github.com/pingdotgg/t3code/issues/13047#issuecomment-5779199060) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+3. 🗣 Commented on [#13047](https://github.com/pingdotgg/t3code/issues/13047#issuecomment-5774140470) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+4. ❗ Opened issue [#13047](https://github.com/pingdotgg/t3code/issues/13047) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
 5. ❗ Opened issue [#899](https://github.com/llm4s/llm4s/issues/899) in [llm4s/llm4s](https://github.com/llm4s/llm4s)
 <!--END_SECTION:activity-->
 
