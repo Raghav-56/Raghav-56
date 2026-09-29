@@ -80,45 +80,6 @@ Having worked on AI projects, I naturally got interested in managing compute and
 
 <!-- [PyPI](https://pypi.org/user/Raghav-56/) · [Npm](https://www.npmjs.com/~raghav-56) -->
 
-<!-- STATS_SECTION:START -->
-## GitHub Stats
-
-<details>
-  <summary>
-    <b>Stats and Contributions</b>
-  </summary>
-
-  <br>
-
-  <div align="center">
-    <a href="https://github.com/Raghav-56">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Raghav-56&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Raghav's GitHub stats" />
-    </a>
-    <a href="https://github.com/Raghav-56">
-      <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raghav-56&layout=compact&langs_count=10&theme=github_dark" alt="Top languages used in Raghav's repositories" />
-    </a>
-  </div>
-
-  <div align="center">
-    <img width="70%" src="https://streak-stats.demolab.com/?user=Raghav-56&theme=github-dark-blue" alt="Raghav's GitHub streak" />
-  </div>
-</details>
-<!-- STATS_SECTION:END -->
-
-<!-- TROPHIES_SECTION:START -->
-## GitHub Trophies
-
-<details>
-  <summary><b>Trophy Board</b></summary>
-
-  <br>
-
-  <div align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=Raghav-56&theme=darkhub&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" alt="GitHub trophies" width="100%" />
-  </div>
-</details>
-<!-- TROPHIES_SECTION:END -->
-
 <!-- PROJECTS_SECTION:START -->
 ## 🌟 Featured Projects
 
