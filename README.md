@@ -84,9 +84,9 @@ Having worked on AI projects, I naturally got interested in managing compute and
 ## 🌟 Featured Projects
 
 - [quartz_website](https://github.com/Raghav-56/quartz_website): Active repository by Raghav Gupta
-- [Blogs-quartz](https://github.com/Raghav-56/Blogs-quartz): My blogs ported to quartz for easy and managed publishing
-- [open-sora-serving-gcp](https://github.com/Raghav-56/open-sora-serving-gcp): Active repository by Raghav Gupta
-- [DL_Assignment](https://github.com/Raghav-56/DL_Assignment): Active repository by Raghav Gupta
+- [ll1-visual-lab](https://github.com/Raghav-56/ll1-visual-lab): Interactive LL(1) rules, FIRST/FOLLOW sets, parsing tables, parser animations, and grammar counterexamples.
+- [flexoki-mcp-server](https://github.com/Raghav-56/flexoki-mcp-server): Active repository by Raghav Gupta
+- [RLM-agent](https://github.com/Raghav-56/RLM-agent): Active repository by Raghav Gupta
 <!-- PROJECTS_SECTION:END -->
 
 <!-- QUOTE_SECTION:START -->
