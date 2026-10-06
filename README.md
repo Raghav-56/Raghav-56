@@ -92,7 +92,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Favor focus over features."
+> "Accessible for all."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
