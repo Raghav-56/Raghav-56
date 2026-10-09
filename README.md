@@ -116,11 +116,11 @@ Having worked on AI projects, I naturally got interested in managing compute and
 </div>
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#17](https://github.com/hiteshbandhu/kandy/pull/17) in [hiteshbandhu/kandy](https://github.com/hiteshbandhu/kandy)
-2. ❗ Opened issue [#16](https://github.com/hiteshbandhu/kandy/issues/16) in [hiteshbandhu/kandy](https://github.com/hiteshbandhu/kandy)
-3. 🚀 Published release [v0.2.0](https://github.com/Raghav-56/opencode-fleet/releases/tag/v0.2.0) in [Raghav-56/opencode-fleet](https://github.com/Raghav-56/opencode-fleet)
-4. 🗣 Commented on [#13047](https://github.com/pingdotgg/t3code/issues/13047#issuecomment-5779315257) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
-5. 🗣 Commented on [#13047](https://github.com/pingdotgg/t3code/issues/13047#issuecomment-5779199060) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+1. 🗣 Commented on [#8430](https://github.com/pingdotgg/t3code/issues/8430#issuecomment-6075007108) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+2. 💪 Opened PR [#17](https://github.com/hiteshbandhu/kandy/pull/17) in [hiteshbandhu/kandy](https://github.com/hiteshbandhu/kandy)
+3. ❗ Opened issue [#16](https://github.com/hiteshbandhu/kandy/issues/16) in [hiteshbandhu/kandy](https://github.com/hiteshbandhu/kandy)
+4. 🚀 Published release [v0.2.0](https://github.com/Raghav-56/opencode-fleet/releases/tag/v0.2.0) in [Raghav-56/opencode-fleet](https://github.com/Raghav-56/opencode-fleet)
+5. 🗣 Commented on [#13047](https://github.com/pingdotgg/t3code/issues/13047#issuecomment-5779315257) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
 <!--END_SECTION:activity-->
 
 ---
