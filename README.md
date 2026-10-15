@@ -92,7 +92,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Non-blocking is better than blocking."
+> "Approachable is better than simple."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
