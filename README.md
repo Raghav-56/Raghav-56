@@ -116,11 +116,11 @@ Having worked on AI projects, I naturally got interested in managing compute and
 </div>
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#8430](https://github.com/pingdotgg/t3code/issues/8430#issuecomment-6075007108) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
-2. 💪 Opened PR [#17](https://github.com/hiteshbandhu/kandy/pull/17) in [hiteshbandhu/kandy](https://github.com/hiteshbandhu/kandy)
-3. ❗ Opened issue [#16](https://github.com/hiteshbandhu/kandy/issues/16) in [hiteshbandhu/kandy](https://github.com/hiteshbandhu/kandy)
-4. 🚀 Published release [v0.2.0](https://github.com/Raghav-56/opencode-fleet/releases/tag/v0.2.0) in [Raghav-56/opencode-fleet](https://github.com/Raghav-56/opencode-fleet)
-5. 🗣 Commented on [#13047](https://github.com/pingdotgg/t3code/issues/13047#issuecomment-5779315257) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+1. 🎉 Merged PR [#2](https://github.com/Raghav-56/CLIProxyAPI/pull/2) in [Raghav-56/CLIProxyAPI](https://github.com/Raghav-56/CLIProxyAPI)
+2. 💪 Opened PR [#2](https://github.com/Raghav-56/CLIProxyAPI/pull/2) in [Raghav-56/CLIProxyAPI](https://github.com/Raghav-56/CLIProxyAPI)
+3. 🗣 Commented on [#8430](https://github.com/pingdotgg/t3code/issues/8430#issuecomment-6075007108) in [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+4. 💪 Opened PR [#17](https://github.com/hiteshbandhu/kandy/pull/17) in [hiteshbandhu/kandy](https://github.com/hiteshbandhu/kandy)
+5. ❗ Opened issue [#16](https://github.com/hiteshbandhu/kandy/issues/16) in [hiteshbandhu/kandy](https://github.com/hiteshbandhu/kandy)
 <!--END_SECTION:activity-->
 
 ---
