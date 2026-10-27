@@ -31,9 +31,6 @@ jobs:
           AUTO_PUSH: "false"
 
       - name: Validate cards and update README
-        env:
-          GITHUB_USER: ${{ github.repository_owner }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update-profile-cards.py
 
       - name: Commit changes

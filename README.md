@@ -90,17 +90,16 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- PROJECTS_SECTION:END -->
 
 <!-- PROFILE_CARDS:START -->
-## GitHub activity
-
-[**21 merged public pull requests**](https://github.com/search?q=author%3ARaghav-56%20is%3Apr%20is%3Amerged%20is%3Apublic&type=pullrequests) · [**14 in repositories outside my account**](https://github.com/search?q=author%3ARaghav-56%20is%3Apr%20is%3Amerged%20is%3Apublic%20-user%3ARaghav-56&type=pullrequests)
-
-<details>
-<summary><b>More GitHub stats</b></summary>
-
-These charts group repositories and commit contributions by each repository's primary language. They are not a measure of proficiency.
+## GitHub languages
 
 <div align="center">
   <img src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Commit contributions grouped by repository primary language" />
+</div>
+
+<details>
+<summary><b>More language stats</b></summary>
+
+<div align="center">
   <img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories grouped by primary language" />
 </div>
 </details>
