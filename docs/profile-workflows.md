@@ -32,6 +32,8 @@ Keep these markers intact so automation can replace the section body safely.
 
 ## Profile cards
 
-The card workflow runs on GitHub-hosted Actions runners and queries GitHub's API with the temporary repository token. It stores the selected SVGs in this public repository and embeds them in the README after validating both files. It does not use a hosted card endpoint or a personal access token. The fork's analytics is disabled in this workflow.
+The card workflow runs on GitHub-hosted Actions runners and queries GitHub's API with the temporary repository token. It stores the selected SVGs in this public repository and embeds them in the README after validating both files. It also counts merged public pull requests with GitHub Search, including a separate count for repositories outside the account. It does not use a hosted card endpoint or a personal access token. The fork's analytics is disabled in this workflow.
 
 Run **Update profile cards** from the Actions tab to generate the first cards after this workflow reaches the default branch. The fork also attempts other cards; GitHub denies its profile-details query with the repository token, so those cards are not used. If a selected card fails to generate, validation stops the workflow without committing partial output. The output is public.
+
+The visible counts link to the corresponding GitHub searches. The language charts are secondary: both group by a repository's primary language, and the commit chart counts contributions to repositories in that group. Neither chart measures proficiency. The count and charts can omit work GitHub does not expose to the workflow token.
