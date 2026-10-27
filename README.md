@@ -89,6 +89,9 @@ Having worked on AI projects, I naturally got interested in managing compute and
 - [laptopctl](https://github.com/Raghav-56/laptopctl): A small Linux laptop status and control utility
 <!-- PROJECTS_SECTION:END -->
 
+<!-- PROFILE_CARDS:START -->
+<!-- PROFILE_CARDS:END -->
+
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 

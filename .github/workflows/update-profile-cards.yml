@@ -1,0 +1,46 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: profile-readme-automation
+      cancel-in-progress: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate cards using my fork
+        uses: Raghav-56/github-profile-summary-cards@a83c680336e7701aa6bb43c3928b4d3e21169e96
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERCEL: ""
+          GA_MEASUREMENT_ID: ""
+          GA_API_SECRET: ""
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: github_dark
+          AUTO_PUSH: "false"
+
+      - name: Validate cards and update README
+        run: python3 scripts/update-profile-cards.py
+
+      - name: Commit changes
+        run: |
+          git add README.md profile-summary-card-output/github_dark
+          if git diff --cached --quiet; then
+            echo "No card updates to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile cards"
+          git push
