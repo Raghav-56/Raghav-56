@@ -1,0 +1,42 @@
+name: Update GitHub trophies
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - ".github/workflows/update-trophies.yml"
+      - "scripts/generate-trophies.py"
+      - "assets/github-trophies.svg"
+
+permissions:
+  contents: write
+
+jobs:
+  update-trophies:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: profile-readme-automation
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate trophy board from public GitHub data
+        env:
+          GITHUB_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate-trophies.py
+      - name: Validate the generated SVG
+        run: python3 -c "from xml.etree import ElementTree; ElementTree.parse('assets/github-trophies.svg')"
+      - name: Commit changes
+        if: github.event_name != 'pull_request'
+        run: |
+          git add assets/github-trophies.svg
+          if git diff --cached --quiet; then
+            echo "No trophy updates to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh GitHub trophies"
+          git push

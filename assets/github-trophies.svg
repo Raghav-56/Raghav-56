@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="704" height="272" viewBox="0 0 704 272" role="img" aria-labelledby="title description">
+<title id="title">GitHub trophy board</title>
+<desc id="description">Public GitHub counts for merged pull requests, outside-account contributions, original repositories and stars.</desc>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<g transform="translate(12,12)">
+  <rect width="332" height="116" rx="8" fill="#161b22" stroke="#30363d"/>
+  <circle cx="48" cy="54" r="28" fill="#e3b341" fill-opacity=".13" stroke="#e3b341"/>
+  <path d="M38 39h20v10c0 8-4 13-10 13s-10-5-10-13V39zm0 4h-6v3c0 7 3 10 8 10m18-13h6v3c0 7-3 10-8 10M48 62v7m-8 2h16" fill="none" stroke="#e3b341" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="88" y="34" fill="#e6edf3" font-size="15" font-weight="600">Merged pull requests</text>
+  <text x="88" y="66" fill="#e3b341" font-size="27" font-weight="700">21</text>
+  <text x="88" y="90" fill="#8b949e" font-size="12">Public repositories</text>
+</g><g transform="translate(358,12)">
+  <rect width="332" height="116" rx="8" fill="#161b22" stroke="#30363d"/>
+  <circle cx="48" cy="54" r="28" fill="#bc8cff" fill-opacity=".13" stroke="#bc8cff"/>
+  <path d="M38 39h20v10c0 8-4 13-10 13s-10-5-10-13V39zm0 4h-6v3c0 7 3 10 8 10m18-13h6v3c0 7-3 10-8 10M48 62v7m-8 2h16" fill="none" stroke="#bc8cff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="88" y="34" fill="#e6edf3" font-size="15" font-weight="600">Community contributions</text>
+  <text x="88" y="66" fill="#bc8cff" font-size="27" font-weight="700">14</text>
+  <text x="88" y="90" fill="#8b949e" font-size="12">Merged outside my account</text>
+</g><g transform="translate(12,142)">
+  <rect width="332" height="116" rx="8" fill="#161b22" stroke="#30363d"/>
+  <circle cx="48" cy="54" r="28" fill="#58a6ff" fill-opacity=".13" stroke="#58a6ff"/>
+  <path d="M38 39h20v10c0 8-4 13-10 13s-10-5-10-13V39zm0 4h-6v3c0 7 3 10 8 10m18-13h6v3c0 7-3 10-8 10M48 62v7m-8 2h16" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="88" y="34" fill="#e6edf3" font-size="15" font-weight="600">Original repositories</text>
+  <text x="88" y="66" fill="#58a6ff" font-size="27" font-weight="700">65</text>
+  <text x="88" y="90" fill="#8b949e" font-size="12">Public, excluding forks</text>
+</g><g transform="translate(358,142)">
+  <rect width="332" height="116" rx="8" fill="#161b22" stroke="#30363d"/>
+  <circle cx="48" cy="54" r="28" fill="#3fb950" fill-opacity=".13" stroke="#3fb950"/>
+  <path d="M38 39h20v10c0 8-4 13-10 13s-10-5-10-13V39zm0 4h-6v3c0 7 3 10 8 10m18-13h6v3c0 7-3 10-8 10M48 62v7m-8 2h16" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="88" y="34" fill="#e6edf3" font-size="15" font-weight="600">Stars received</text>
+  <text x="88" y="66" fill="#3fb950" font-size="27" font-weight="700">4</text>
+  <text x="88" y="90" fill="#8b949e" font-size="12">On original public repositories</text>
+</g>
+</g>
+</svg>

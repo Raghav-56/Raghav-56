@@ -104,6 +104,16 @@ Having worked on AI projects, I naturally got interested in managing compute and
 > "Responsive is better than fast."
 <!-- QUOTE_SECTION:END -->
 
+<details>
+<summary><b>GitHub trophies</b></summary>
+
+A snapshot of public projects and contributions. Counts update daily.
+
+<div align="center">
+  <img src="assets/github-trophies.svg" alt="GitHub trophies for merged pull requests, community contributions, original repositories, and stars" />
+</div>
+</details>
+
 ## Connect With Me
 
 <div align="center">
