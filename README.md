@@ -90,6 +90,12 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- PROJECTS_SECTION:END -->
 
 <!-- PROFILE_CARDS:START -->
+## GitHub languages
+
+<div align="center">
+  <img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories by primary language" />
+  <img src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Languages by commit contributions" />
+</div>
 <!-- PROFILE_CARDS:END -->
 
 <!-- QUOTE_SECTION:START -->
