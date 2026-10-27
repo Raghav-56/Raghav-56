@@ -108,6 +108,19 @@ Having worked on AI projects, I naturally got interested in managing compute and
 > "Responsive is better than fast."
 <!-- QUOTE_SECTION:END -->
 
+<details>
+<summary><b>More GitHub metrics</b></summary>
+
+Public GitHub data, updated daily. Outside-account work can include organizations I belong to.
+
+<div align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/github-trophies.svg#phone" />
+    <img src="assets/github-trophies.svg#desktop" width="688" alt="Public GitHub collaboration, repository details, history, and merge timeline" />
+  </picture>
+</div>
+</details>
+
 ## Connect With Me
 
 <div align="center">
