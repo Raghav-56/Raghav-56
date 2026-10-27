@@ -24,7 +24,7 @@ if content.count(start) != 1 or content.count(end) != 1 or content.index(start) 
     raise SystemExit("Profile card markers are missing, duplicated, or out of order")
 
 section = f"""{start}
-## GitHub languages
+## GitHub metrics
 
 <details>
 <summary><b>Language charts</b></summary>

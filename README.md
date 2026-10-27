@@ -90,7 +90,7 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- PROJECTS_SECTION:END -->
 
 <!-- PROFILE_CARDS:START -->
-## GitHub languages
+## GitHub metrics
 
 <details>
 <summary><b>Language charts</b></summary>
@@ -101,12 +101,6 @@ Having worked on AI projects, I naturally got interested in managing compute and
 </div>
 </details>
 <!-- PROFILE_CARDS:END -->
-
-<!-- QUOTE_SECTION:START -->
-## Thoughts
-
-> "Responsive is better than fast."
-<!-- QUOTE_SECTION:END -->
 
 <details>
 <summary><b>More GitHub metrics</b></summary>
@@ -120,6 +114,12 @@ Public GitHub data, updated daily. Outside-account work can include organization
   </picture>
 </div>
 </details>
+
+<!-- QUOTE_SECTION:START -->
+## Thoughts
+
+> "Responsive is better than fast."
+<!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
 
