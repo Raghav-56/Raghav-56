@@ -118,7 +118,7 @@ Public GitHub data, updated daily. Outside-account work can include organization
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Responsive is better than fast."
+> "Avoid administrative distraction."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
