@@ -92,14 +92,11 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- PROFILE_CARDS:START -->
 ## GitHub languages
 
+<details>
+<summary><b>Language charts</b></summary>
+
 <div align="center">
   <img src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Commit contributions grouped by repository primary language" />
-</div>
-
-<details>
-<summary><b>More language stats</b></summary>
-
-<div align="center">
   <img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories grouped by primary language" />
 </div>
 </details>

@@ -26,14 +26,11 @@ if content.count(start) != 1 or content.count(end) != 1 or content.index(start) 
 section = f"""{start}
 ## GitHub languages
 
+<details>
+<summary><b>Language charts</b></summary>
+
 <div align="center">
   <img src="{output / '2-most-commit-language.svg'}" alt="{cards['2-most-commit-language.svg']}" />
-</div>
-
-<details>
-<summary><b>More language stats</b></summary>
-
-<div align="center">
   <img src="{output / '1-repos-per-language.svg'}" alt="{cards['1-repos-per-language.svg']}" />
 </div>
 </details>
