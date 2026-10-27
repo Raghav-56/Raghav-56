@@ -3,8 +3,8 @@ from xml.etree import ElementTree
 
 output = Path("profile-summary-card-output/github_dark")
 cards = {
-    "1-repos-per-language.svg": "Repositories by primary language",
-    "2-most-commit-language.svg": "Languages by commit contributions",
+    "1-repos-per-language.svg": "Repositories grouped by primary language",
+    "2-most-commit-language.svg": "Commit contributions grouped by repository primary language",
 }
 
 for filename in cards:
@@ -23,10 +23,18 @@ content = readme.read_text(encoding="utf-8")
 if content.count(start) != 1 or content.count(end) != 1 or content.index(start) >= content.index(end):
     raise SystemExit("Profile card markers are missing, duplicated, or out of order")
 
-section = f"{start}\n## GitHub languages\n\n<div align=\"center\">\n"
-section += f'  <img src="{output / "1-repos-per-language.svg"}" alt="{cards["1-repos-per-language.svg"]}" />\n'
-section += f'  <img src="{output / "2-most-commit-language.svg"}" alt="{cards["2-most-commit-language.svg"]}" />\n'
-section += f"</div>\n{end}"
+section = f"""{start}
+## GitHub languages
+
+<details>
+<summary><b>Language charts</b></summary>
+
+<div align="center">
+  <img src="{output / '2-most-commit-language.svg'}" alt="{cards['2-most-commit-language.svg']}" />
+  <img src="{output / '1-repos-per-language.svg'}" alt="{cards['1-repos-per-language.svg']}" />
+</div>
+</details>
+{end}"""
 readme.write_text(content[:content.index(start)] + section + content[content.index(end) + len(end):], encoding="utf-8")
 
 for path in output.iterdir():
