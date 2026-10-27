@@ -8,6 +8,7 @@ from statistics import median
 from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
+from copy import deepcopy
 
 username = os.environ["GITHUB_USER"]
 token = os.environ["GITHUB_TOKEN"]
@@ -76,9 +77,11 @@ def timeline_card(months, counts, median_duration):
         height = round(bar_height * count / peak) if peak else 0
         bars.append(f'''<rect x="{x}" y="{147 - height}" width="17" height="{height}" rx="2" fill="#58a6ff"/>
 <text x="{x + 8.5}" y="165" fill="#8b949e" font-size="9" text-anchor="middle">{month:%b}</text>''')
+        if count:
+            bars.append(f'<text x="{x + 8.5}" y="{143 - height}" fill="#c9d1d9" font-size="9" text-anchor="middle">{count}</text>')
     description = ", ".join(f"{month:%b %Y}: {count}" for month, count in zip(months, counts))
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="340" height="220" viewBox="0 0 340 220" role="img" aria-label="{escape('Merged public pull requests by month. ' + description + '. Median open-to-merge time outside my account: ' + median_duration, quote=True)}">
-<rect x="1" y="1" width="338" height="218" rx="9" fill="#0d1117" stroke="#30363d"/>
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="340" height="303" viewBox="0 0 340 303" role="img" aria-label="{escape('Merged public pull requests by month. ' + description + '. Median open-to-merge time outside my account: ' + median_duration, quote=True)}">
+<rect x="1" y="1" width="338" height="301" rx="9" fill="#0d1117" stroke="#30363d"/>
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
 <text x="24" y="31" fill="#e6edf3" font-size="18" font-weight="600">Merge timeline</text>
 <text x="24" y="53" fill="#8b949e" font-size="12">Public PRs per month · current month is partial</text>
@@ -88,6 +91,34 @@ def timeline_card(months, counts, median_duration):
 </g></svg>\n'''
 
 
+def history_card(joined, years, repo_counts, merge_counts):
+    peak = max(repo_counts + merge_counts + [1])
+    bars = []
+    spacing = 300 / max(len(years), 1)
+    for i, (year, repos_created, prs_merged) in enumerate(zip(years, repo_counts, merge_counts)):
+        x = 24 + i * spacing
+        for delta, count, color in [(0, repos_created, "#58a6ff"), (12, prs_merged, "#bc8cff")]:
+            height = round(count / peak * 92)
+            bars.append(f'<rect x="{x + delta:.1f}" y="{227 - height}" width="10" height="{height}" rx="2" fill="{color}"/>')
+            if count:
+                bars.append(f'<text x="{x + delta + 5:.1f}" y="{223 - height}" fill="#c9d1d9" font-size="9" text-anchor="middle">{count}</text>')
+        bars.append(f'<text x="{x + 11:.1f}" y="246" fill="#8b949e" font-size="10" text-anchor="middle">{year}</text>')
+    description = "; ".join(f"{year}: {repos_created} public original repositories created, {prs_merged} public pull requests merged" for year, repos_created, prs_merged in zip(years, repo_counts, merge_counts))
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="340" height="303" viewBox="0 0 340 303" role="img" aria-label="{escape('Joined GitHub ' + joined + '; ' + description, quote=True)}">
+<rect x="1" y="1" width="338" height="301" rx="9" fill="#0d1117" stroke="#30363d"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="24" y="31" fill="#e6edf3" font-size="18" font-weight="600">GitHub history</text>
+<text x="24" y="53" fill="#8b949e" font-size="12">Joined {escape(joined)} · public work by year</text>
+<rect x="24" y="72" width="9" height="9" fill="#58a6ff"/><text x="39" y="81" fill="#c9d1d9" font-size="11">Original repos created</text>
+<rect x="186" y="72" width="9" height="9" fill="#bc8cff"/><text x="201" y="81" fill="#c9d1d9" font-size="11">PRs merged</text>
+<path d="M24 228H320" stroke="#30363d"/>
+{''.join(bars)}
+<text x="24" y="276" fill="#8b949e" font-size="11">Current public repos only · up to six years</text>
+</g></svg>\n'''
+
+
+profile = get_json(f"/users/{quote(username, safe='')}", {})
+joined = parse_time(profile["created_at"])
 repos = []
 page = 1
 while True:
@@ -145,22 +176,37 @@ if durations:
 else:
     duration_label = "not available"
 
+years = list(range(max(joined.year, now.year - 5), now.year + 1))
+repo_years = Counter(parse_time(repo["created_at"]).year for repo in original)
+merge_years = Counter(parse_time(pr["pull_request"]["merged_at"]).year for pr in merged)
+repo_counts = [repo_years[year] for year in years]
+merge_counts = [merge_years[year] for year in years]
+
 cards = [
     svg_card("Collaboration", "Public GitHub activity · all time", collaboration, "; ".join(f"{label}: {value}" for label, value in collaboration)),
     svg_card("Repository details", "Public repositories owned by this account", projects, "; ".join(f"{label}: {value}" for label, value in projects)),
+    history_card(joined.strftime("%b %Y"), years, repo_counts, merge_counts),
     timeline_card(months, counts, duration_label),
 ]
 ElementTree.register_namespace("", "http://www.w3.org/2000/svg")
 children = [ElementTree.fromstring(card) for card in cards]
-height = sum(int(child.get("height")) for child in children) + 16
+card_height = 303
+gap = 8
+desktop_width, desktop_height = 688, 2 * card_height + gap
+mobile_x, mobile_width, mobile_height = 700, 340, len(children) * card_height + (len(children) - 1) * gap
 board = ElementTree.Element("{http://www.w3.org/2000/svg}svg", {
-    "width": "340", "height": str(height), "viewBox": f"0 0 340 {height}",
+    "viewBox": f"0 0 {desktop_width} {desktop_height}",
     "role": "img", "aria-label": "; ".join(child.get("aria-label", "") for child in children),
 })
-y = 0
-for child in children:
-    child.set("x", "0")
-    child.set("y", str(y))
-    board.append(child)
-    y += int(child.get("height")) + 8
+ElementTree.SubElement(board, "{http://www.w3.org/2000/svg}view", {"id": "desktop", "viewBox": f"0 0 {desktop_width} {desktop_height}"})
+ElementTree.SubElement(board, "{http://www.w3.org/2000/svg}view", {"id": "phone", "viewBox": f"{mobile_x} 0 {mobile_width} {mobile_height}"})
+for i, child in enumerate(children):
+    desktop = deepcopy(child)
+    desktop.set("x", str((i % 2) * (340 + gap)))
+    desktop.set("y", str((i // 2) * (card_height + gap)))
+    board.append(desktop)
+    phone = deepcopy(child)
+    phone.set("x", str(mobile_x))
+    phone.set("y", str(i * (card_height + gap)))
+    board.append(phone)
 ElementTree.ElementTree(board).write("assets/github-trophies.svg", encoding="unicode", xml_declaration=False)
