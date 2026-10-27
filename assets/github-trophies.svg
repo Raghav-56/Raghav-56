@@ -1,35 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="704" height="272" viewBox="0 0 704 272" role="img" aria-labelledby="title description">
-<title id="title">GitHub trophy board</title>
-<desc id="description">Public GitHub counts for merged pull requests, outside-account contributions, original repositories and stars.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="842" viewBox="0 0 340 842" role="img" aria-label="Merged pull requests: 21; Merged outside my account: 14; Outside repositories reached: 9; Outside repository owners: 9; Issues opened outside my account: 5; Pull requests reviewed: 3; Original repositories: 65; Forked repositories: 77; Original repos pushed in 90 days: 16; Archived original repositories: 0; Primary languages in originals: 13; Stars on original repositories: 4; Merged public pull requests by month. Nov 2025: 0, Dec 2025: 0, Jan 2026: 0, Feb 2026: 1, Mar 2026: 1, Apr 2026: 1, May 2026: 0, Jun 2026: 0, Jul 2026: 0, Aug 2026: 0, Sep 2026: 0, Oct 2026: 1. Median open-to-merge time outside my account: 0.1 hours"><svg width="340" height="303" viewBox="0 0 340 303" role="img" aria-label="Merged pull requests: 21; Merged outside my account: 14; Outside repositories reached: 9; Outside repository owners: 9; Issues opened outside my account: 5; Pull requests reviewed: 3" x="0" y="0">
+<rect x="1" y="1" width="338" height="301" rx="9" fill="#0d1117" stroke="#30363d" />
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-<g transform="translate(12,12)">
-  <rect width="332" height="116" rx="8" fill="#161b22" stroke="#30363d"/>
-  <circle cx="48" cy="54" r="28" fill="#e3b341" fill-opacity=".13" stroke="#e3b341"/>
-  <path d="M38 39h20v10c0 8-4 13-10 13s-10-5-10-13V39zm0 4h-6v3c0 7 3 10 8 10m18-13h6v3c0 7-3 10-8 10M48 62v7m-8 2h16" fill="none" stroke="#e3b341" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="88" y="34" fill="#e6edf3" font-size="15" font-weight="600">Merged pull requests</text>
-  <text x="88" y="66" fill="#e3b341" font-size="27" font-weight="700">21</text>
-  <text x="88" y="90" fill="#8b949e" font-size="12">Public repositories</text>
-</g><g transform="translate(358,12)">
-  <rect width="332" height="116" rx="8" fill="#161b22" stroke="#30363d"/>
-  <circle cx="48" cy="54" r="28" fill="#bc8cff" fill-opacity=".13" stroke="#bc8cff"/>
-  <path d="M38 39h20v10c0 8-4 13-10 13s-10-5-10-13V39zm0 4h-6v3c0 7 3 10 8 10m18-13h6v3c0 7-3 10-8 10M48 62v7m-8 2h16" fill="none" stroke="#bc8cff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="88" y="34" fill="#e6edf3" font-size="15" font-weight="600">Community contributions</text>
-  <text x="88" y="66" fill="#bc8cff" font-size="27" font-weight="700">14</text>
-  <text x="88" y="90" fill="#8b949e" font-size="12">Merged outside my account</text>
-</g><g transform="translate(12,142)">
-  <rect width="332" height="116" rx="8" fill="#161b22" stroke="#30363d"/>
-  <circle cx="48" cy="54" r="28" fill="#58a6ff" fill-opacity=".13" stroke="#58a6ff"/>
-  <path d="M38 39h20v10c0 8-4 13-10 13s-10-5-10-13V39zm0 4h-6v3c0 7 3 10 8 10m18-13h6v3c0 7-3 10-8 10M48 62v7m-8 2h16" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="88" y="34" fill="#e6edf3" font-size="15" font-weight="600">Original repositories</text>
-  <text x="88" y="66" fill="#58a6ff" font-size="27" font-weight="700">65</text>
-  <text x="88" y="90" fill="#8b949e" font-size="12">Public, excluding forks</text>
-</g><g transform="translate(358,142)">
-  <rect width="332" height="116" rx="8" fill="#161b22" stroke="#30363d"/>
-  <circle cx="48" cy="54" r="28" fill="#3fb950" fill-opacity=".13" stroke="#3fb950"/>
-  <path d="M38 39h20v10c0 8-4 13-10 13s-10-5-10-13V39zm0 4h-6v3c0 7 3 10 8 10m18-13h6v3c0 7-3 10-8 10M48 62v7m-8 2h16" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="88" y="34" fill="#e6edf3" font-size="15" font-weight="600">Stars received</text>
-  <text x="88" y="66" fill="#3fb950" font-size="27" font-weight="700">4</text>
-  <text x="88" y="90" fill="#8b949e" font-size="12">On original public repositories</text>
-</g>
-</g>
-</svg>
+<text x="24" y="31" fill="#e6edf3" font-size="18" font-weight="600">Collaboration</text>
+<text x="24" y="53" fill="#8b949e" font-size="12">Public GitHub activity · all time</text>
+<text x="24" y="95" fill="#58a6ff" font-size="21" font-weight="700">21</text>
+<text x="78" y="95" fill="#c9d1d9" font-size="13">Merged pull requests</text><text x="24" y="134" fill="#58a6ff" font-size="21" font-weight="700">14</text>
+<text x="78" y="134" fill="#c9d1d9" font-size="13">Merged outside my account</text><text x="24" y="173" fill="#58a6ff" font-size="21" font-weight="700">9</text>
+<text x="78" y="173" fill="#c9d1d9" font-size="13">Outside repositories reached</text><text x="24" y="212" fill="#58a6ff" font-size="21" font-weight="700">9</text>
+<text x="78" y="212" fill="#c9d1d9" font-size="13">Outside repository owners</text><text x="24" y="251" fill="#58a6ff" font-size="21" font-weight="700">5</text>
+<text x="78" y="251" fill="#c9d1d9" font-size="13">Issues opened outside my account</text><text x="24" y="290" fill="#58a6ff" font-size="21" font-weight="700">3</text>
+<text x="78" y="290" fill="#c9d1d9" font-size="13">Pull requests reviewed</text>
+</g></svg><svg width="340" height="303" viewBox="0 0 340 303" role="img" aria-label="Original repositories: 65; Forked repositories: 77; Original repos pushed in 90 days: 16; Archived original repositories: 0; Primary languages in originals: 13; Stars on original repositories: 4" x="0" y="311">
+<rect x="1" y="1" width="338" height="301" rx="9" fill="#0d1117" stroke="#30363d" />
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="24" y="31" fill="#e6edf3" font-size="18" font-weight="600">Repository details</text>
+<text x="24" y="53" fill="#8b949e" font-size="12">Public repositories owned by this account</text>
+<text x="24" y="95" fill="#58a6ff" font-size="21" font-weight="700">65</text>
+<text x="78" y="95" fill="#c9d1d9" font-size="13">Original repositories</text><text x="24" y="134" fill="#58a6ff" font-size="21" font-weight="700">77</text>
+<text x="78" y="134" fill="#c9d1d9" font-size="13">Forked repositories</text><text x="24" y="173" fill="#58a6ff" font-size="21" font-weight="700">16</text>
+<text x="78" y="173" fill="#c9d1d9" font-size="13">Original repos pushed in 90 days</text><text x="24" y="212" fill="#58a6ff" font-size="21" font-weight="700">0</text>
+<text x="78" y="212" fill="#c9d1d9" font-size="13">Archived original repositories</text><text x="24" y="251" fill="#58a6ff" font-size="21" font-weight="700">13</text>
+<text x="78" y="251" fill="#c9d1d9" font-size="13">Primary languages in originals</text><text x="24" y="290" fill="#58a6ff" font-size="21" font-weight="700">4</text>
+<text x="78" y="290" fill="#c9d1d9" font-size="13">Stars on original repositories</text>
+</g></svg><svg width="340" height="220" viewBox="0 0 340 220" role="img" aria-label="Merged public pull requests by month. Nov 2025: 0, Dec 2025: 0, Jan 2026: 0, Feb 2026: 1, Mar 2026: 1, Apr 2026: 1, May 2026: 0, Jun 2026: 0, Jul 2026: 0, Aug 2026: 0, Sep 2026: 0, Oct 2026: 1. Median open-to-merge time outside my account: 0.1 hours" x="0" y="622">
+<rect x="1" y="1" width="338" height="218" rx="9" fill="#0d1117" stroke="#30363d" />
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="24" y="31" fill="#e6edf3" font-size="18" font-weight="600">Merge timeline</text>
+<text x="24" y="53" fill="#8b949e" font-size="12">Public PRs per month · current month is partial</text>
+<path d="M18 148H330" stroke="#30363d" />
+<rect x="18" y="147" width="17" height="0" rx="2" fill="#58a6ff" />
+<text x="26.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Nov</text><rect x="44" y="147" width="17" height="0" rx="2" fill="#58a6ff" />
+<text x="52.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Dec</text><rect x="70" y="147" width="17" height="0" rx="2" fill="#58a6ff" />
+<text x="78.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Jan</text><rect x="96" y="73" width="17" height="74" rx="2" fill="#58a6ff" />
+<text x="104.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Feb</text><rect x="122" y="73" width="17" height="74" rx="2" fill="#58a6ff" />
+<text x="130.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Mar</text><rect x="148" y="73" width="17" height="74" rx="2" fill="#58a6ff" />
+<text x="156.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Apr</text><rect x="174" y="147" width="17" height="0" rx="2" fill="#58a6ff" />
+<text x="182.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">May</text><rect x="200" y="147" width="17" height="0" rx="2" fill="#58a6ff" />
+<text x="208.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Jun</text><rect x="226" y="147" width="17" height="0" rx="2" fill="#58a6ff" />
+<text x="234.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Jul</text><rect x="252" y="147" width="17" height="0" rx="2" fill="#58a6ff" />
+<text x="260.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Aug</text><rect x="278" y="147" width="17" height="0" rx="2" fill="#58a6ff" />
+<text x="286.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Sep</text><rect x="304" y="73" width="17" height="74" rx="2" fill="#58a6ff" />
+<text x="312.5" y="165" fill="#8b949e" font-size="9" text-anchor="middle">Oct</text>
+<text x="24" y="194" fill="#c9d1d9" font-size="12">Median open-to-merge outside account: 0.1 hours</text>
+</g></svg></svg>

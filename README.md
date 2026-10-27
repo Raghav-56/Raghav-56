@@ -105,12 +105,12 @@ Having worked on AI projects, I naturally got interested in managing compute and
 <!-- QUOTE_SECTION:END -->
 
 <details>
-<summary><b>GitHub trophies</b></summary>
+<summary><b>More GitHub metrics</b></summary>
 
-A snapshot of public projects and contributions. Counts update daily.
+Public GitHub data, updated daily. Outside-account work can include organizations I belong to.
 
 <div align="center">
-  <img src="assets/github-trophies.svg" alt="GitHub trophies for merged pull requests, community contributions, original repositories, and stars" />
+  <img src="assets/github-trophies.svg" alt="Public collaboration and repository metrics with a monthly merge timeline" />
 </div>
 </details>
 
