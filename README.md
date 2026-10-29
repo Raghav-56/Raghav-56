@@ -118,7 +118,7 @@ Public GitHub data, updated daily. Outside-account work can include organization
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Practicality beats purity."
+> "Accessible for all."
 <!-- QUOTE_SECTION:END -->
 
 ## Connect With Me
