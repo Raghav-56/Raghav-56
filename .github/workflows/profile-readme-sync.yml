@@ -19,11 +19,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Update GitHub activity in README
-        uses: jamesgeorge007/github-activity-readme@master
+      - name: Update public activity
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "chore: refresh activity section"
-          MAX_LINES: 8
-          TARGET_FILE: README.md
+        run: python3 scripts/update-activity.py
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No activity updates to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh activity section"
+          git push

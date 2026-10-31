@@ -121,6 +121,25 @@ Public GitHub data, updated daily. Outside-account work can include organization
 > "Practicality beats purity."
 <!-- QUOTE_SECTION:END -->
 
+## Recently working on
+
+<details>
+<summary><b>Recent public activity</b></summary>
+
+A snapshot of my recent work on GitHub.
+
+<!--START_SECTION:activity-->
+- **[priyanshwho/SADS](https://github.com/priyanshwho/SADS)** · Pushed [Fix: restore assignment formatting and clean PDF metadata](https://github.com/priyanshwho/SADS/commit/10e84b2effd7c171481732ea6d6603dff27049be) · Oct 28, 2026
+- **[Raghav-56/CLIProxyAPI](https://github.com/Raghav-56/CLIProxyAPI)** · Pushed [test(websocket): receive upload before completing keepalive mocks](https://github.com/Raghav-56/CLIProxyAPI/commit/31727bc36934590755dd85c8f6c7695534251b93) · Oct 20, 2026
+- **[Raghav-56/loom-interiors](https://github.com/Raghav-56/loom-interiors)** · Pushed [Refine studio design and connect selections to consultation briefs](https://github.com/Raghav-56/loom-interiors/commit/91b5fbe3e2fe2f91b55dd60cba5e759b89ddc24f) · Oct 14, 2026
+- **[Coxswains-Steer/steerability](https://github.com/Coxswains-Steer/steerability)** · Pushed [Fix head\_dim reads on configs that declare it per layer (Gemma 4) (#37)](https://github.com/Coxswains-Steer/steerability/commit/4459fce2cf8737cf6e0811a33f4d5b01f0e4dcc6) · Oct 12, 2026
+- **[Raghav-56/laptopctl](https://github.com/Raghav-56/laptopctl)** · Pushed [Track personal shell setup for laptopctl](https://github.com/Raghav-56/laptopctl/commit/361aee03dd6e5d41a4aecfba57090ebd103f5bfb) · Oct 6, 2026
+<!--END_SECTION:activity-->
+
+[See all activity on GitHub](https://github.com/Raghav-56)
+
+</details>
+
 ## Connect With Me
 
 <div align="center">
@@ -141,13 +160,7 @@ Public GitHub data, updated daily. Outside-account work can include organization
   </a>
 </div>
 
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#4](https://github.com/Raghav-56/Raghav-56/pull/4) in [Raghav-56/Raghav-56](https://github.com/Raghav-56/Raghav-56)
-2. 💪 Opened PR [#4](https://github.com/Raghav-56/Raghav-56/pull/4) in [Raghav-56/Raghav-56](https://github.com/Raghav-56/Raghav-56)
-3. 🎉 Merged PR [#3](https://github.com/Raghav-56/Raghav-56/pull/3) in [Raghav-56/Raghav-56](https://github.com/Raghav-56/Raghav-56)
-4. 🎉 Merged PR [#2](https://github.com/Raghav-56/Raghav-56/pull/2) in [Raghav-56/Raghav-56](https://github.com/Raghav-56/Raghav-56)
-5. 💪 Opened PR [#3](https://github.com/Raghav-56/Raghav-56/pull/3) in [Raghav-56/Raghav-56](https://github.com/Raghav-56/Raghav-56)
-<!--END_SECTION:activity-->
+
 
 ---
 

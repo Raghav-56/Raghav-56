@@ -5,7 +5,9 @@ This repository uses GitHub Actions to keep sections of `README.md` updated.
 ## Active workflows
 
 - `.github/workflows/profile-readme-sync.yml`
-  - Updates the activity section (`START_SECTION:activity`) daily.
+  - Updates the public activity section (`START_SECTION:activity`) daily using `scripts/update-activity.py`.
+  - Shows up to five repositories, with one recent push, pull request, issue, or release per repository. The profile repository is excluded. GitHub events cover at most the last 30 days.
+  - API failures stop the update before the README is written.
 - `.github/workflows/update-featured-projects.yml`
   - Refreshes featured repositories weekly using the GitHub API.
 - `.github/workflows/update-profile-cards.yml`
