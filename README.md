@@ -118,7 +118,7 @@ Public GitHub data, updated daily. Outside-account work can include organization
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Anything added dilutes everything else."
+> "Design for failure."
 <!-- QUOTE_SECTION:END -->
 
 ## Recently working on
