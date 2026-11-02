@@ -84,9 +84,9 @@ Having worked on AI projects, I naturally got interested in managing compute and
 ## 🌟 Featured Projects
 
 - [quartz_website](https://github.com/Raghav-56/quartz_website): Active repository by Raghav Gupta
+- [open-sora-serving-gcp](https://github.com/Raghav-56/open-sora-serving-gcp): Active repository by Raghav Gupta
+- [Blogs-quartz](https://github.com/Raghav-56/Blogs-quartz): My blogs ported to quartz for easy and managed publishing
 - [loom-interiors](https://github.com/Raghav-56/loom-interiors): React interior-design frontend demo with camera style preview, draggable chat, and consultation briefs
-- [attribute-flow](https://github.com/Raghav-56/attribute-flow): An interactive explainer for attribute grammars, dependency flows, proxy paths, cycles, and GATE-style MCQs.
-- [laptopctl](https://github.com/Raghav-56/laptopctl): A small Linux laptop status and control utility
 <!-- PROJECTS_SECTION:END -->
 
 <!-- PROFILE_CARDS:START -->
