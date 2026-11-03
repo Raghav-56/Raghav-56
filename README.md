@@ -129,7 +129,7 @@ Public GitHub data, updated daily. Outside-account work can include organization
 A snapshot of my recent work on GitHub.
 
 <!--START_SECTION:activity-->
-- **[Raghav-56/CLIProxyAPI](https://github.com/Raghav-56/CLIProxyAPI)** · Merged [chore(upstream): merge v8.0.51 into custom](https://github.com/Raghav-56/CLIProxyAPI/pull/4) · Nov 1, 2026
+- **[Raghav-56/CLIProxyAPI](https://github.com/Raghav-56/CLIProxyAPI)** · Pushed [Merge custom features into upstream v8.0.51 update](https://github.com/Raghav-56/CLIProxyAPI/commit/7759e982d3b952de9494109c55db6235020dbb90) · Nov 1, 2026
 - **[priyanshwho/SADS](https://github.com/priyanshwho/SADS)** · Pushed [Fix: restore assignment formatting and clean PDF metadata](https://github.com/priyanshwho/SADS/commit/10e84b2effd7c171481732ea6d6603dff27049be) · Oct 28, 2026
 - **[Raghav-56/loom-interiors](https://github.com/Raghav-56/loom-interiors)** · Pushed [Refine studio design and connect selections to consultation briefs](https://github.com/Raghav-56/loom-interiors/commit/91b5fbe3e2fe2f91b55dd60cba5e759b89ddc24f) · Oct 14, 2026
 - **[Coxswains-Steer/steerability](https://github.com/Coxswains-Steer/steerability)** · Pushed [Fix head\_dim reads on configs that declare it per layer (Gemma 4) (#37)](https://github.com/Coxswains-Steer/steerability/commit/4459fce2cf8737cf6e0811a33f4d5b01f0e4dcc6) · Oct 12, 2026
