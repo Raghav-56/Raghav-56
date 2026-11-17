@@ -118,7 +118,7 @@ Public GitHub data, updated daily. Outside-account work can include organization
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "Approachable is better than simple."
+> "Anything added dilutes everything else."
 <!-- QUOTE_SECTION:END -->
 
 ## Recently working on
