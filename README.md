@@ -118,7 +118,7 @@ Public GitHub data, updated daily. Outside-account work can include organization
 <!-- QUOTE_SECTION:START -->
 ## Thoughts
 
-> "It's not fully shipped until it's fast."
+> "Accessible for all."
 <!-- QUOTE_SECTION:END -->
 
 ## Recently working on
